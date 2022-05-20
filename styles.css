@@ -1,32 +1,68 @@
 header {
     font-family: Futura, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     letter-spacing: 0.47em;
+    background-color: #ffc1b3;
 }
 
+header a {
+  background-color: #edf6f9;
+  color: #e95433;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color:#ffc1b3;
+}
+
+header a:active {
+  color:#ff8064;
+}
+
+header ul {
+  list-style: none;
+}
+body {
+  background-color: #edf6f9;
+
+}
 
 main {
     
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-
+    /*background-color: #006d77;*/
 }
 h1 {
-  color: brown;
-  background-color: pink;
-  text-align: center;
+  color: #006d77;
+  background-color: #83c5be;
+  text-align: left;
   width: 100vw;
     letter-spacing: 0.05em;
 }
 
-p {
+h2, h3, h4, h5, h6 {
+  color: #006d77;
+  text-align: left;
+  width: 100vw;
+    letter-spacing: 0.05em;
+}
+p, ul, ol {
   text-align: justify;
   line-height: 1.45em;
-}
+  color: #00272b;
 
-li {
-  list-style: none;
 }
 
 a {
   text-decoration: none;
   color: gray;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: 100;
+  color:#455758;
+  text-decoration: underline; 
+
+  
+
 }
