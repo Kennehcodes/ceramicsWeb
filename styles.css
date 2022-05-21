@@ -9,7 +9,6 @@ header a {
   color: #e95433;
   text-decoration: none;
 }
-
 header a:hover {
   background-color:#ffc1b3;
 }
@@ -23,6 +22,7 @@ header ul {
 }
 body {
   background-color: #edf6f9;
+  margin: 0;
 
 }
 
@@ -52,6 +52,27 @@ p, ul, ol {
 
 }
 
+p::first-line {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #268378; }
+
+a:nth-of-type(2n)
+{
+
+}
+
+.roundImg {
+  border-radius: 5em;
+  background-color: #26837865;
+  opacity: 80%;  
+  transition: all 1s ease-in-out;
+}
+.roundImg:hover {
+  border-radius: 0em;
+  transition: all 1s ease-out;
+  opacity: 100%;
+}
 a {
   text-decoration: none;
   color: gray;
@@ -63,6 +84,10 @@ figcaption {
   color:#455758;
   text-decoration: underline; 
 
-  
-
+}
+ ::selection {
+  background-color: #b7ece7;
+}
+header a::selection {
+  background-color: #ffa08a;
 }
